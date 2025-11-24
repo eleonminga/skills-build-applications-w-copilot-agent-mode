@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222e50;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #222e50 0%, #0077b6 100%);
+  box-shadow: 0 2px 8px rgba(34,46,80,0.1);
+}
+.navbar-brand {
+  color: #f9fafc !important;
+  font-weight: bold;
+
+.nav-link {
+  color: #f9fafc !important;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #90e0ef !important;
+}
+
+.display-6 {
+  color: #0077b6;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(34,46,80,0.07);
+  border: none;
+}
+.card-body {
+  background: #f9fafc;
+}
+
+.table {
+  background: #f9fafc;
+  color: #222e50;
+}
+.table-dark {
+  background: #0077b6;
+  color: #f9fafc;
+}
+.table-primary {
+  background: #90e0ef;
+  color: #222e50;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #0077b6 !important;
+}
+
+.btn-outline-primary {
+  color: #0077b6;
+  border-color: #0077b6;
+  background: #f9fafc;
+}
+.btn-outline-primary:hover {
+  background: #0077b6;
+  color: #f9fafc;
+}
+.btn-outline-danger {
+  color: #d90429;
+  border-color: #d90429;
+  background: #f9fafc;
+}
+.btn-outline-danger:hover {
+  background: #d90429;
+  color: #f9fafc;
+}
+
+a {
+  color: #0077b6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #d90429;
+}
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
