@@ -3,6 +3,11 @@ model: GPT-4.1
 
 # Django App Updates
 
+mode: 'agent'
+model: GPT-4.1
+
+# Django App Updates
+
 - All Django project files are in the `octofit-tracker/backend/octofit_tracker` directory.
 
 1. Update `settings.py` for MongoDB connection and CORS.
